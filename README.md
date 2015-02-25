@@ -1,2 +1,2 @@
 # RNN
-Java Implementation of Recurrent Neural Networks
+Implementations for Neural Networks
