@@ -1,8 +1,8 @@
-package org.labcrypto.math.number;
+package org.labcrypto.math.algebra.abstrakt;
 
 public interface GroupItem extends MonoidItem {
 
-    GroupItem negate(GroupItem groupItem);
+    GroupItem negate();
 
     boolean isGroupAbelian();
 }

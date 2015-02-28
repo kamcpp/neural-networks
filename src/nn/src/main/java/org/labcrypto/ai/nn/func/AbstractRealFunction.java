@@ -1,7 +1,7 @@
 package org.labcrypto.ai.nn.func;
 
-import org.labcrypto.math.number.MathNumber;
-import org.labcrypto.math.number.Real;
+import org.labcrypto.math.algebra.abstrakt.MathNumber;
+import org.labcrypto.math.algebra.abstrakt.Real;
 
 public abstract class AbstractRealFunction implements RealFunction {
 

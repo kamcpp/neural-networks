@@ -1,4 +1,4 @@
-package org.labcrypto.math.number;
+package org.labcrypto.math.algebra.abstrakt;
 
 public interface Rational extends Real {
 
