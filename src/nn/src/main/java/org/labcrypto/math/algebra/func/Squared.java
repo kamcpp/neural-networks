@@ -1,4 +1,4 @@
-package org.labcrypto.ai.nn.func;
+package org.labcrypto.math.algebra.func;
 
 import org.labcrypto.math.algebra.abstrakt.Real;
 

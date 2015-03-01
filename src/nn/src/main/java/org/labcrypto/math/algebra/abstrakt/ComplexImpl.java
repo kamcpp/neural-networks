@@ -1,6 +1,6 @@
 package org.labcrypto.math.algebra.abstrakt;
 
-import org.labcrypto.ai.nn.func.Functions;
+import org.labcrypto.math.algebra.func.Functions;
 
 public class ComplexImpl implements Complex {
 

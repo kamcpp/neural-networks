@@ -1,15 +1,17 @@
 package org.labcrypto.ai.nn;
 
-import java.util.Set;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Layer {
-    private Set<Neuron> neurons;
 
-    public void addNeuron(Neuron neuron) {
-        neurons.add(neuron);
+    private List<Neuron> neurons;
+
+    public Layer() {
+        neurons = new ArrayList<Neuron>();
     }
 
-    public void removeNeuron(Neuron neuron) {
-        neurons.remove(neuron);
+    public List<Neuron> getNeurons() {
+        return neurons;
     }
 }

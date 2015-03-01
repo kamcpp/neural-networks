@@ -1,4 +1,4 @@
-package org.labcrypto.ai.nn.func;
+package org.labcrypto.math.algebra.func;
 
 public class Functions {
 

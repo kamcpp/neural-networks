@@ -1,4 +1,10 @@
 package org.labcrypto.ai.nn;
 
-public class Network {
+public abstract interface Network {
+
+    int inputSize();
+
+    int outputSize();
+
+    void build();
 }
