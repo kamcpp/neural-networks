@@ -4,11 +4,15 @@ package org.labcrypto.ai.nn;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Neuron {
+public abstract class Neuron {
 
-    private Axon axon;
-    private Function function;
-    private List<Dendrite> dendrites;
+    public enum NeuronType {
+        SIGMOID
+    }
+
+    protected Axon axon;
+    protected Function function;
+    protected List<Dendrite> dendrites;
 
     public Neuron() {
         dendrites = new ArrayList<Dendrite>();
@@ -26,7 +30,7 @@ public class Neuron {
         return function;
     }
 
-    public void setFunction(Function function) {
+    protected void setFunction(Function function) {
         this.function = function;
     }
 
@@ -34,7 +38,7 @@ public class Neuron {
         return dendrites;
     }
 
-    public void operate() {
+    public void compute() {
         double total = 0.0;
         for (Dendrite dendrite : dendrites) {
             total += dendrite.getSignal();

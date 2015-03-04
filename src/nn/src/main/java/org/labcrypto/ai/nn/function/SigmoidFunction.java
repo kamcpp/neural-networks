@@ -1,4 +1,6 @@
-package org.labcrypto.ai.nn;
+package org.labcrypto.ai.nn.function;
+
+import org.labcrypto.ai.nn.Function;
 
 public class SigmoidFunction implements Function {
 

@@ -6,5 +6,11 @@ public abstract interface Network {
 
     int outputSize();
 
+    Input inputAt(int index);
+
+    Output outputAt(int index);
+
     void build();
+
+    void compute();
 }
